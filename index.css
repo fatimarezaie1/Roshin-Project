@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+   max-width: 100%;
+    height: auto;
+    font-family:  Arial;
+}
+.header{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EBF8FF;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo{
+    Width:384px;
+    Height:224px;
+    Top:97px;
+    Left: 74px;
+}
+.companies-bio h1{
+    font-weight:400px;
+    font-size:96px;
+    Line-height:110.39px;
+}
+.companies-bio h6{ 
+    font-weight:400;
+    font-size:32px;
+    Line-height:36.8px;
+}
+.client-bio{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 30px;
+}
+.info {
+    font-size: 24px;
+    Line-height:27.6px;
+    line-height: 50px ;  
+}
+.info-client{
+    line-height: 40px;
+    text-align: right;
+}
+.info-client span{
+   padding-inline:20px ;
+}
+.info-client h1{
+    font-size: 32px;
+}
+.info-client p{
+    font-size: 24px;
+}
+.main{
+    padding-inline: 40px;
+}
+.main-table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: right;
+    font-size: 14px;
+}
+.main-table tr::first-line{
+    background-color: pink;
+}
+.collection-table{
+    width: 20%;
+    background-color: #EBF8FF;  ;
+}
+.calculation{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.table-header th{
+    background-color:  #0085D1;
+    color: white;
+    margin: 30px;
+}
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: #EBF8FF;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 2180px;
+   
+}    
+.notice{
+    width: 350px;
+    font-size: 24px;
+    justify-items: center;
+}       
+.contact{
+    line-height: 50px;
+    text-align: right
+}
+.contact span{
+    font-size: 20px;
+    padding-inline: 20px ;
+}
