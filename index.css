@@ -59,14 +59,24 @@ body{
 .main{
     padding-inline: 40px;
 }
+.header-tbs tr th{
+    border-collapse: separate; 
+    justify-content: center;
+    align-items: center;
+}
 .main-table{
     width: 100%;
-    border-collapse: collapse;
     text-align: right;
     font-size: 14px;
+    border-spacing: 20px;
 }
-.main-table tr::first-line{
-    background-color: pink;
+
+.main-table tr:nth-of-type(even){
+    background-color: #F5F5F5;
+}
+.main-table tr:nth-of-type(odd){
+    background-color: #EBF8FF;
+
 }
 .collection-table{
     width: 20%;
